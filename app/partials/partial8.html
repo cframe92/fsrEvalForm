@@ -1,0 +1,68 @@
+
+<div class="tabbable">
+    <ul class="nav nav-tabs">
+        <li><a href="#/view1" data-toggle="tab" ><i class="icon-home icon-2x"></i> </a></li>
+        <li><a href="#/view2" data-toggle="tab" >1</a></li>
+        <li><a href="#/view3" data-toggle="tab" >2</a></li>
+        <li><a href="#/view4" data-toggle="tab" >3</a></li>
+        <li><a href="#/view5" data-toggle="tab" >4</a></li>
+        <li><a href="#/view6" data-toggle="tab" >5</a></li>
+        <li><a href="#/view7" data-toggle="tab" >6</a></li>
+        <li class="active"><a href="#/view8" data-toggle="tab" >7</a></li>
+    </ul>
+</div><!--/tabs-->
+	   
+	   
+<div controller="MyCtrl8">
+ <form>
+   <div class = "control-group">
+	<label class="control-label" for="notes1"></label>
+	  <div class="controls">
+       <textarea  rows="10" name="notes1" id="notes1" ng-model="oNotes" style="width: 90%; margin-left:50px"></textarea>
+	  </div> <!--/Controls-->
+   </div> <!--/Control group-->
+	 
+   <div class="control-group">
+    <label class="control-label" for="notes2"></label>
+	  <div class="controls">
+       <textarea  rows="10" name="notes2" id="notes2" ng-model="feedback" style="width: 90%; margin-left: 50px"></textarea>
+	  </div><!--/Controls-->
+   </div> <!--/Control group-->
+	 
+   <div class="control-group">
+    <label class="control-label" for="notes3"></label>
+	  <div class="controls">
+       <textarea  rows="10" name="notes3" id="notes3" ng-model="valuestate" style="width: 90%; margin-left: 50px"></textarea>
+	  </div><!--/Controls-->
+   </div><!--/Control group-->
+	 
+   <div class="control-group">   
+    <label class="control-label" for="notes4"></label>
+	  <div class="controls">
+       <textarea  rows="10" name="notes4" id="notes4" ng-model="improvement" style="width: 90%; margin-left: 50px"></textarea>
+	  </div><!--/Controls-->
+   </div><!--/Control group-->
+</form>
+<form style="margin-left: 50px">   
+	 
+   <h3>Member's Color(s)</h3>
+   <div class="control-group">
+		 <label class="radio" style="color: green; font-weight:bold">
+         <input type="radio" name="color-1" id="color-1" value="option1" />
+         Green</label>
+       
+         <label class="radio" style="color: purple; font-weight: bold">
+		 <input type="radio" name="color-2" id="color-2" value="option2" />
+         Purple</label>
+         
+		 <label class="radio" style="color: blue; font-weight: bold">
+         <input type="radio" name="color-3" id="color-3" value="option3" />
+         Blue</label>
+         
+         <label class="radio" style="color:orange; font-weight: bold">
+		 <input type="radio" name="color-4" id="color-4" value="option4" />
+         Orange</label>
+    </div><!--/Control Group-->
+ </form>
+   
+</div><!--/Controller-->

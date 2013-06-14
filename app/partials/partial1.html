@@ -1,0 +1,44 @@
+	<div class="tabbable">
+          <ul class="nav nav-tabs">
+             <li class="active"><a href="#/view1" data-toggle="tab" ><i class="icon-home icon-2x"></i> </a></li>
+             <li><a href="#/view2" data-toggle="tab" >1</a></li>
+             <li><a href="#/view3" data-toggle="tab" >2</a></li>
+             <li><a href="#/view4" data-toggle="tab" >3</a></li>
+             <li><a href="#/view5" data-toggle="tab" >4</a></li>
+             <li><a href="#/view6" data-toggle="tab" >5</a></li>
+             <li><a href="#/view7" data-toggle="tab" >6</a></li>
+             <li><a href="#/view8" data-toggle="tab" >7</a></li>
+          </ul>
+    </div><!--/Navbar-->
+	
+	<div ng-controller="MyCtrl1">
+	  <form style="margin-left: 20px">
+	    <fieldset>
+		 <legend></legend>
+		 <label></label>
+         <input type="text" name="oName" ng-model="observerName" style="width: 90%" required>
+		 <label></label>
+         <input type="text" name="fName" ng-model="fsrName" style="width: 90%" required>
+		 <label></label>
+         <input type="datetime-local" name="datetime" ng-model="todayDate" style="width: 90%" required>
+		 <label></label>
+         <input type="text" name="oType" ng-model="obsType" style="width: 90%" required>
+        </fieldset>       
+	   </form><!-- /Form-->
+	</div><!--/controller-->
+	
+	<div id="ratings" style="height: auto; width: auto"class="row-fluid">
+       <div class="span8 offset2" id="ratings">
+          <div class="thumbnail">
+             <div class="caption">
+        	 <h3><center>Use the following rating system to answer the questions:</center></h3>
+        	 <ul>
+         		<li><a class="btn btn-success btn-large" href="#" ><i class="icon-ok icon-white icon-2x"></i></a>&nbsp;<strong>YES</strong> - Fully performed</li>
+                <br>
+          		<li><a class="btn btn-danger btn-large" href="#"><i class="icon-remove icon-white icon-2x"></i></a>&nbsp;<strong>NO</strong> - Did not fully perform</li>
+                <br>
+           		<li><a class="btn btn-info btn-large" href="#"><i class="icon-ban-circle icon-white icon-2x"></i></a>&nbsp;<strong>N/A</strong> - Not applicable</li></ul>
+          	 </div><!--Caption-->
+          </div><!--Thumbnail-->
+   		</div><!--Span8-->
+    </div><!--Row fluid-->  
